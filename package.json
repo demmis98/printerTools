@@ -2,7 +2,7 @@
   "name": "printtools",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://demmis98.github.io/printerTools/",
+  "homepage": "https://github.com/demmis98/printerTools/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
