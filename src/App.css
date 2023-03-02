@@ -10,3 +10,11 @@
   align-self: center;
   background-color: #f0d0ff;
 }
+.buttonDem {
+  background-color: #df99ff;
+  color: #c856fd;
+}
+.buttonHoverDem {
+  background-color: #c74dff;
+  color: #fd56fd;
+}
