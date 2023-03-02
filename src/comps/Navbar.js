@@ -14,9 +14,9 @@ const Navbar = () => {
 
     return(
         <>
-        <div className="navBarElementDem">
-            <button className="navbarElement" onClick={navMain}>main</button>
-            <button className="navbarElement" onClick={navDouble}>double page</button>
+        <div className="navbarDem">
+            <button className="navbarElementDem" onClick={navMain}>main</button>
+            <button className="navbarElementDem" onClick={navDouble}>double page</button>
         </div>
         </>
     )
