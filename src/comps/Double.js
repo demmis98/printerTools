@@ -12,8 +12,8 @@ const Double = () => {
     const calculate = () => {
         //calcular para imprimir a doble cara en js
 
-        var i = begin
-        var f = end
+        var i = parseInt(begin)
+        var f = parseInt(end)
 
         var s = ""
 
