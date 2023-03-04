@@ -22,7 +22,7 @@ const Double = () => {
         }
         console.log("1, 3, 5, ...")
         console.log(s)
-        setDouble1s("1, 3, 5, ... \n" + s)
+        setDouble1s(s)
         i++
         f++
         s = ""
@@ -32,7 +32,7 @@ const Double = () => {
         }
         console.log("2, 4, 6, ...")
         console.log(s)
-        setDouble2s("2, 4, 6, ... \n" + s)
+        setDouble2s(s)
     }
     const hoverBtn = () => {
         setBtnClass("buttonHoverDem")
@@ -49,7 +49,12 @@ const Double = () => {
         <br></br>
         <button onClick={calculate} className={btnClass} onMouseOver={hoverBtn}>calculate</button>
         <br></br>
+        1, 3, 5, ...
+        <br></br>
         <p id="double1s">{double1s}</p>
+        <br></br>
+        2, 4, 6, ...
+        <br></br>
         <p id="double2s">{double2s}</p>
         </>
     )
